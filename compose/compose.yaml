@@ -3,7 +3,7 @@ networks:
 
 volumes:
   counter-vol:
-  
+
 services:
   web-fe:
     build: .
@@ -21,4 +21,3 @@ services:
     image: "redis:alpine"
     networks:
       counter-net:
-
